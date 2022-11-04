@@ -3,8 +3,8 @@ echo "======================================================"
 echo "                   install portainer"
 echo "======================================================"
 
-mkdir -p /root/data/docker/portainer
-cd /root/data/docker/portainer
+mkdir -p /docker/portainer
+cd /docker/portainer
 
 touch docker-compose.yml
 echo "version: '3.3'" >> docker-compose.yml
