@@ -8,8 +8,8 @@ tar -zxvf jdk-8u351-linux-x64.tar.gz
 
 echo "" >> /etc/profile
 echo "#set JAVA environment" >> /etc/profile
-echo "export JAVA_HOME=\"/environment/jdk/jdk-8u351-linux-x64\"" >> /etc/profile
+echo "export JAVA_HOME=\"/environment/jdk/jdk1.8.0_351\"" >> /etc/profile
 echo "export PATH=\$PATH:\$JAVA_HOME/bin" >> /etc/profile
 
 source /etc/profile
-jdk -version
+java -version
